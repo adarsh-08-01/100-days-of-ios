@@ -1,0 +1,170 @@
+📘 DAY 3 – OPERATORS & FUNCTIONS (SWIFT)
+
+────────────────────────────
+
+🔹 PART 1 – OPERATORS
+
+Operators are symbols used to perform operations on values.
+
+────────────────────────────
+
+➕ ARITHMETIC OPERATORS
+Used for mathematical calculations.
+
+Example:
+var likeCount: Double = 5
+
+likeCount += 2   // Addition
+likeCount -= 1   // Subtraction
+likeCount *= 2   // Multiplication
+likeCount /= 2   // Division
+
+🧠 Order of Operations (PEMDAS):
+1. Parentheses
+2. Exponents
+3. Multiplication
+4. Division
+5. Addition
+6. Subtraction
+
+Example:
+likeCount = (likeCount - 1) * 1.5
+
+👉 Parentheses change the result.
+
+
+────────────────────────────
+
+⚖️ COMPARISON OPERATORS
+Used to compare values.
+They always return a Boolean (true / false).
+
+==   Equal to
+!=   Not equal to
+>    Greater than
+<    Less than
+>=   Greater than or equal to
+<=   Less than or equal to
+
+Example:
+if likeCount == 5 {
+    print("yes good")
+}
+
+────────────────────────────
+
+🔗 LOGICAL OPERATORS
+Used to combine conditions.
+
+&&   AND
+||   OR
+!    NOT
+
+✅ AND (&&):
+Both conditions must be true.
+
+✅ OR (||):
+At least one condition must be true.
+
+✅ NOT (!):
+Reverses Boolean value.
+
+⚠️ Important:
+Swift evaluates && before ||.
+Use parentheses for clarity.
+
+Example:
+if (likeCount > 3 && commentCount > 0) || likeCount < 5
+
+────────────────────────────
+
+🔁 ELSE-IF LADDER
+Used when multiple conditions exist.
+Only one block executes.
+
+Example:
+if likeCount > 5 {
+    print("A")
+} else if likeCount > 3 {
+    print("B")
+} else {
+    print("C")
+}
+
+────────────────────────────
+
+🔹 PART 2 – FUNCTIONS
+
+A function is a reusable block of code.
+
+────────────────────────────
+
+🛠 BASIC FUNCTION
+func myFirstFunction() {
+    print("MY FIRST FUNCTION IN SWIFT!")
+}
+
+Function Call:
+myFirstFunction()
+
+────────────────────────────
+
+🔄 FUNCTION CALLING ANOTHER FUNCTION
+A function can call another function.
+Execution flow follows call order.
+
+────────────────────────────
+
+🔙 FUNCTION WITH RETURN VALUE
+func getUserName() -> String {
+    return "ADARSH"
+}
+
+👉 -> String means the function returns a String.
+
+Usage:
+let name = getUserName()
+print(name)
+
+────────────────────────────
+
+🔐 FUNCTION RETURNING BOOL
+func checkIfUserIsPremium() -> Bool {
+    return false
+}
+
+Commonly used in authentication logic.
+
+────────────────────────────
+
+📥 FUNCTION WITH PARAMETERS
+func checkUserStatus(didCompleteOnboarding: Bool, profileIsCreated: Bool) -> Bool {
+    return didCompleteOnboarding && profileIsCreated
+}
+
+Calling the function:
+let status = checkUserStatus(
+    didCompleteOnboarding: false,
+    profileIsCreated: true
+)
+
+Parameters → Inputs  
+Return value → Output  
+
+────────────────────────────
+
+🚀 WHAT I LEARNED TODAY
+
+✔ Arithmetic operators  
+✔ Comparison operators  
+✔ Logical operators (&&, ||, !)  
+✔ Operator precedence  
+✔ Else-if ladder  
+✔ Functions  
+✔ Return types  
+✔ Parameters  
+✔ Code reusability  
+
+────────────────────────────
+
+💪 Day 3 Complete – Logic Getting Stronger
