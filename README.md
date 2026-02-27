@@ -37,3 +37,30 @@ Example:
 ```swift
 let someConstant: Bool = true
 var someVariable: String = "Hello"
+
+---
+
+## ✅ Day 3 – Operators & Functions
+
+### 🔹 Operators
+- Arithmetic operators (+, -, *, /)
+- Comparison operators (==, !=, >, <, >=, <=)
+- Logical operators (&&, ||, !)
+- Operator precedence (PEMDAS)
+- Else-if ladder
+
+Example:
+if (likeCount > 3 && commentCount > 0) || likeCount < 5 {
+    print("Condition satisfied")
+}
+### 🔹 Functions
+- Function declaration
+- Function calling
+- Functions with return types
+- Functions with parameters
+- Code reusability
+
+Example:
+func checkUserStatus(didCompleteOnboarding: Bool, profileIsCreated: Bool) -> Bool {
+    return didCompleteOnboarding && profileIsCreated
+}
