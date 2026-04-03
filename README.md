@@ -95,3 +95,40 @@ Provides a default value when an optional is nil.
 ```swift
 let newValue: Bool = otherBool ?? false
 ```
+
+### 🔹 Optional Binding (if let)
+
+Safely unwrap optional values.
+```swift
+if let newValue = userIsPremium {
+    return newValue
+} else {
+    return false
+}
+```
+
+### 🔹 Guard Let
+
+Used for early exit when optional value is nil.
+```swift
+guard let userIsPremium else {
+    return false
+}
+```
+
+### 🔹 Optional Chaining
+
+Safely access properties of optional values.
+```swift
+let username: String? = getUserName()
+let count = username?.count
+```
+
+### 🔹 Force Unwrapping (!)
+
+Directly extract value from an optional.
+```swift
+let count = username!.count
+```
+
+⚠️ If the value is `nil`, the app will crash.
