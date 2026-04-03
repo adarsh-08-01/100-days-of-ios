@@ -1,66 +1,27 @@
-# 🚀 100 Days of iOS Development
+🚀 100 Days of iOS Development
 
 Welcome to my public journey of becoming an iOS Developer.
+In this challenge, I am learning Swift and iOS development step by step while documenting my daily progress.
 
-This repository documents my daily progress while learning **Swift** and building real-world iOS applications from scratch.
+👨‍💻 About Me
 
----
+Hi, I'm Adarsh Kashyap, a B.Tech CSE student passionate about iOS development, clean code, and building impactful applications.
 
-## 👨‍💻 About Me
+🌐 Website:
+https://codewithadarsh08.netlify.app/
 
-Hi, I'm Adarsh Kashyap.  
-B.Tech CSE student passionate about iOS development, clean code, and building impactful apps.
+This repository represents my commitment to learning consistently and improving every day.
 
-This repository is part of my commitment to learning consistently and improving every single day.
+📅 Progress Summary
 
----
+Day 1 – Swift Introduction
+Set up Xcode, learned how Swift files work, wrote my first Swift program, and understood basic Swift syntax and print() statements.
 
-# 📅 Progress Log
+Day 2 – Variables & Control Flow
+Learned about variables and constants (var vs let), basic data types, and used if-else statements to control program flow.
 
-## ✅ Day 1 – Introduction to Swift & Setup
-- Installed Xcode
-- Learned how Swift files work
-- Wrote my first Swift program
-- Understood `print()` statements
-- Basic syntax structure
+Day 3 – Operators & Functions
+Studied arithmetic, comparison, and logical operators. Learned how to create functions, pass parameters, return values, and write reusable code.
 
----
-
-## ✅ Day 2 – Variables, Constants & If-Else
-
-### 🔹 Variables vs Constants
-- `let` → Constant (cannot change value)
-- `var` → Variable (value can change)
-
-Example:
-
-```swift
-let someConstant: Bool = true
-var someVariable: String = "Hello"
-
----
-
-## ✅ Day 3 – Operators & Functions
-
-### 🔹 Operators
-- Arithmetic operators (+, -, *, /)
-- Comparison operators (==, !=, >, <, >=, <=)
-- Logical operators (&&, ||, !)
-- Operator precedence (PEMDAS)
-- Else-if ladder
-
-Example:
-if (likeCount > 3 && commentCount > 0) || likeCount < 5 {
-    print("Condition satisfied")
-}
-### 🔹 Functions
-- Function declaration
-- Function calling
-- Functions with return types
-- Functions with parameters
-- Code reusability
-
-Example:
-func checkUserStatus(didCompleteOnboarding: Bool, profileIsCreated: Bool) -> Bool {
-    return didCompleteOnboarding && profileIsCreated
-}
+Day 4 – Optionals & Safe Unwrapping
+Learned how Swift handles missing values using optionals (?). Practiced safe unwrapping using if let, guard let, nil coalescing (??), optional chaining, and force unwrapping.
