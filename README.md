@@ -1,27 +1,97 @@
-🚀 100 Days of iOS Development
+# 🚀 100 Days of iOS Development
 
-Welcome to my public journey of becoming an iOS Developer.
-In this challenge, I am learning Swift and iOS development step by step while documenting my daily progress.
+Welcome to my **public journey of becoming an iOS Developer**.
 
-👨‍💻 About Me
+In this challenge, I am learning **Swift and iOS development step by step** while documenting my daily progress and building real-world applications.
 
-Hi, I'm Adarsh Kashyap, a B.Tech CSE student passionate about iOS development, clean code, and building impactful applications.
+---
 
-🌐 Website:
-https://codewithadarsh08.netlify.app/
+## 👨‍💻 About Me
 
-This repository represents my commitment to learning consistently and improving every day.
+Hi, I'm **Adarsh Kashyap**  
+🎓 B.Tech CSE Student  
+📱 Aspiring iOS Developer  
+💡 Passionate about clean code, Swift, and building impactful applications.
 
-📅 Progress Summary
+🌐 **Website**  
+👉 https://codewithadarsh08.netlify.app/
 
-Day 1 – Swift Introduction
-Set up Xcode, learned how Swift files work, wrote my first Swift program, and understood basic Swift syntax and print() statements.
+This repository represents my commitment to **learning consistently and improving every single day.**
 
-Day 2 – Variables & Control Flow
-Learned about variables and constants (var vs let), basic data types, and used if-else statements to control program flow.
+---
 
-Day 3 – Operators & Functions
-Studied arithmetic, comparison, and logical operators. Learned how to create functions, pass parameters, return values, and write reusable code.
+# 📅 Progress Log
 
-Day 4 – Optionals & Safe Unwrapping
-Learned how Swift handles missing values using optionals (?). Practiced safe unwrapping using if let, guard let, nil coalescing (??), optional chaining, and force unwrapping.
+## ✅ Day 1 – Swift Introduction & Setup
+
+- Installed **Xcode**
+- Learned how **Swift files work**
+- Wrote my **first Swift program**
+- Understood `print()` statements
+- Basic **Swift syntax structure**
+
+---
+
+## ✅ Day 2 – Variables, Constants & If-Else
+
+### 🔹 Variables vs Constants
+
+- `let` → Constant (cannot change value)
+- `var` → Variable (value can change)
+
+Example:
+
+```swift
+let someConstant: Bool = true
+var someVariable: String = "Hello"
+```
+
+---
+
+## ✅ Day 3 – Operators & Functions
+### 🔹 Operators
+- Arithmetic operators (`+`,`-`, `*`, `/`)
+- Comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
+- Logical operators (`&&`, `||`, `!`)
+- Operator precedence (PEMDAS)
+
+Example:
+```swift
+if (likeCount > 3 && commentCount > 0) || likeCount < 5 {
+    print("Condition satisfied")
+}
+```
+
+### 🔹 Functions
+- Function declaration
+- Function calling
+- Functions with parameters
+- Functions with return values
+- Code reusability
+
+Example:
+
+```swift
+func checkUserStatus(didCompleteOnboarding: Bool, profileIsCreated: Bool) -> Bool {
+    return didCompleteOnboarding && profileIsCreated
+}
+```
+
+---
+
+## ✅ Day 4 – Optionals & Safe Unwrapping
+### 🔹 Optionals
+
+Optionals represent values that may exist or may be nil.
+```swift
+let myBool: Bool = false
+let otherBool: Bool? = nil
+```
+
+### 🔹 Nil Coalescing Operator (`??`)
+
+Provides a default value when an optional is nil.
+
+```swift
+let newValue: Bool = otherBool ?? false
+```
