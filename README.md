@@ -132,3 +132,28 @@ let count = username!.count
 ```
 
 ⚠️ If the value is `nil`, the app will crash.
+
+---
+
+## ✅ Day 5 – Tuples
+
+### 🔹 What I Learned
+
+- Swift functions normally return **one value**
+- **Tuples** allow returning multiple values from a function
+- Access tuple values using **index (`.0`, `.1`, `.2`)**
+- Use **named tuples** for better readability
+- Tuples can also be **passed as parameters to functions**
+
+---
+
+### 🔹 Tuple Example
+
+Tuples allow combining multiple pieces of data.
+
+```swift
+let userData = ("Adarsh", true, false)
+
+print(userData.0)
+print(userData.1)
+print(userData.2)
