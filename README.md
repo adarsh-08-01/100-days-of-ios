@@ -157,3 +157,34 @@ let userData = ("Adarsh", true, false)
 print(userData.0)
 print(userData.1)
 print(userData.2)
+```
+---
+---
+
+## ✅ Day 6 – Structs in Swift
+
+### 🔹 What I Learned
+
+- Created custom data types using `struct`
+- Stored related properties inside structs
+- Learned that structs are **Value Types**
+- Used methods inside structs
+- Learned about `mutating` functions
+- Created computed properties
+- Used multiple initializers
+- Built a real-world Instagram profile model using structs
+
+---
+
+### 🔹 Basic Struct Example
+
+```swift
+struct Dog {
+    let name: String
+}
+
+let myDog = Dog(name: "Tommy")
+
+print(myDog.name)
+```
+
