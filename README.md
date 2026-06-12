@@ -184,6 +184,39 @@ struct Dog {
 }
 
 let myDog = Dog(name: "Tommy")
+```
+
+
+
+---
+
+## ✅ Day 7 – Enums in Swift
+
+### 🔹 What I Learned
+
+- Created Enums using `enum`
+- Learned that Enums represent a fixed set of possible values
+- Used Enums with `if` conditions
+- Used `switch` statements with Enums
+- Learned about Raw Values in Enums
+- Added methods inside Enums
+- Understood the difference between Structs and Enums
+- Built real-world examples like Traffic Lights, Login States, Themes, and Game States
+
+---
+
+### 🔹 Basic Enum Example
+
+```swift
+enum TrafficLight {
+    case green
+    case yellow
+    case red
+}
+
+var signal = TrafficLight.red
+
+print(signal)
 
 print(myDog.name)
 ```
