@@ -221,3 +221,33 @@ print(signal)
 print(myDog.name)
 ```
 
+---
+
+## ✅ Day 8 – Classes & Inheritance in Swift
+
+### 🔹 What I Learned
+
+- Created Classes using `class`
+- Learned the difference between Structs and Classes
+- Understood that Classes are **Reference Types**
+- Used properties and methods inside classes
+- Learned about `init()` constructors
+- Used `private(set)` for controlled access
+- Learned about `deinit`
+- Built real-world examples like Bank Account, YouTube Channel, and Game Player
+- Learned about Inheritance and Method Overriding
+- Understood the `===` identity operator
+
+---
+
+### 🔹 Basic Class Example
+
+```swift
+class Cat {
+
+    var name: String = "Billu Don"
+}
+
+let cat1 = Cat()
+
+print(cat1.name)
