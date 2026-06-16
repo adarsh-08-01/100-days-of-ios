@@ -2,7 +2,7 @@
 
 Welcome to my **public journey of becoming an iOS Developer**.
 
-In this challenge, I am learning **Swift and iOS development step by step** while documenting my daily progress and building real-world applications.
+In this challenge, I am learning **Swift and iOS development step by step** while documenting my  progress and building real-world applications.
 
 ---
 
