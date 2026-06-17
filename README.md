@@ -247,7 +247,32 @@ class Cat {
 
     var name: String = "Billu Don"
 }
+```
+---
 
-let cat1 = Cat()
+## ✅ Day 9 – Protocols in Swift
 
-print(cat1.name)
+### 🔹 What I Learned
+
+- Learned what Protocols are in Swift
+- Understood that Protocols define rules/contracts
+- Learned how Classes and Structs adopt protocols
+- Used protocol methods and properties
+- Learned about `{ get }` and `{ get set }`
+- Understood the difference between Protocols and Inheritance
+- Built real-world examples using Protocols
+
+---
+
+### 🔹 What is a Protocol?
+
+A Protocol is a blueprint or contract that defines required properties and methods.
+
+Example:
+
+```swift
+protocol CarDrive {
+    func drive()
+}
+```
+
