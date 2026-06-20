@@ -276,3 +276,152 @@ protocol CarDrive {
 }
 ```
 
+---
+
+# ✅ Day 10 – Arrays, Loops, Dictionaries, Sets & Extensions
+
+Today I learned important Swift collection types and reusable code concepts.
+
+---
+
+# 🔹 Arrays
+
+Arrays store multiple values in a single collection.
+
+### Example
+
+```swift
+var fruits = ["apple", "banana", "cherry"]
+
+print(fruits)
+print(fruits[0])
+```
+
+### Array Operations
+
+#### Add Value
+
+```swift
+fruits.append("Orange")
+```
+
+#### Remove Value
+
+```swift
+fruits.remove(at: 1)
+```
+
+#### Count Values
+
+```swift
+print(fruits.count)
+```
+
+---
+
+# 🔹 Loops
+
+Loops are used to repeat code multiple times.
+
+### Loop Through Array
+
+```swift
+for fruit in fruits {
+    print(fruit)
+}
+```
+
+### Number Loop
+
+```swift
+for number in 1...10 {
+    print(number)
+}
+```
+
+---
+
+# 🔹 Dictionaries
+
+Dictionaries store data in **Key → Value** pairs.
+
+### Example
+
+```swift
+var student = [
+    "name": "Adarsh",
+    "course": "BTech",
+    "college": "Kanpur Institute of Technology"
+]
+```
+
+### Access Dictionary Value
+
+```swift
+print(student["name"])
+```
+
+### Safe Access Using Nil Coalescing
+
+```swift
+print(student["name"] ?? "No Name")
+print(student["course"] ?? "No Course")
+```
+
+---
+
+# 🔹 Sets
+
+Sets store only unique values.
+
+### Example
+
+```swift
+var numbers: Set = [1,2,2,3,3,4,5]
+
+print(numbers)
+```
+
+### When to Use Sets?
+
+- Unique usernames
+- Unique IDs
+- Tags
+
+---
+
+# 🔹 Extensions
+
+Extensions add new functionality to existing types.
+
+### Int Extension
+
+```swift
+extension Int {
+
+    func square() -> Int {
+        return self * self
+    }
+}
+
+print(6.square())
+```
+
+---
+
+### String Extension
+
+```swift
+extension String {
+
+    func welcomeMessage() {
+        print("Hello, \(self)")
+    }
+}
+
+let name = "Adarsh"
+
+name.welcomeMessage()
+```
+
+---
