@@ -425,3 +425,48 @@ name.welcomeMessage()
 ```
 
 ---
+---
+
+# ✅ Day 11 – Introduction to SwiftUI
+
+Today I started learning **SwiftUI** and built my first interactive UI using:
+- `NavigationView`
+- `Form`
+- `Section`
+- `TextField`
+- `Picker`
+- `Buttons`
+- `State Management`
+- `FocusState`
+- `Group`
+- `VStack`
+
+---
+
+# 🔹 What I Learned
+
+- Built UI using SwiftUI views
+- Used `@State` for dynamic data
+- Created input fields using `TextField`
+- Used `Picker` for selection menus
+- Learned Form & Section layout
+- Used `Button` actions
+- Learned `NavigationView`
+- Used `@FocusState` for keyboard handling
+- Displayed dynamic text updates
+- Used `Group` and `VStack` for organizing UI
+
+---
+
+# 🔹 NavigationView
+
+`NavigationView` provides navigation structure and titles.
+
+```swift
+NavigationView {
+    
+}
+.navigationTitle("SwiftUI Learning❤️")
+
+---
+
