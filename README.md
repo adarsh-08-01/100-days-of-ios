@@ -467,6 +467,44 @@ NavigationView {
     
 }
 .navigationTitle("SwiftUI Learning❤️")
+```
 
 ---
 
+# ✅ Day 12 – SwiftUI Tip Calculator App
+
+Today I built a simple **Tip Calculator App** using SwiftUI and learned:
+- `@State`
+- Computed Properties
+- `TextField`
+- `Picker`
+- Segmented Picker
+- Currency Formatting
+- `@FocusState`
+- Toolbar keyboard handling
+- Dynamic calculations in SwiftUI
+
+---
+
+# 🔹 What I Learned
+
+- Managed dynamic UI state using `@State`
+- Created computed properties for calculations
+- Built forms using `Form` & `Section`
+- Used `TextField` with currency formatting
+- Used `Picker` for selecting people count
+- Created segmented picker UI
+- Controlled keyboard focus using `@FocusState`
+- Added keyboard toolbar button using `.toolbar`
+
+---
+
+# 🔹 @State
+
+`@State` stores values that can change and automatically updates the UI.
+
+```swift
+@State private var checkAmount = 0.0
+@State private var numberOfpeople = 2
+@State private var tipPercentage = 20
+```
